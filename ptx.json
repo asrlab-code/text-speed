@@ -1,0 +1,13 @@
+{
+    "name": "text-speed",
+    "version": "0.0.1",
+    "description": "Show scrolling text on the micro:bit with adjustable speed.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts"
+    ],
+    "public": true
+}
