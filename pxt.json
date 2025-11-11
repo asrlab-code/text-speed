@@ -7,9 +7,12 @@
         "core": "*"
     },
     "files": [
-        "main.ts", 
+        "main.ts",
         "README.md"
     ],
-    "public": true
-    "testFiles": ["test.ts"]
+    "testFiles": [],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ]
 }
