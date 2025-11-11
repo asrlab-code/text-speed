@@ -1,7 +1,3 @@
-/**
- * Custom blocks
- */
-//% weight=100 color=#0fbc11 icon=""
 namespace textSpeed {
     /**
      * แสดงข้อความบนหน้าจอ LED ด้วยความเร็วที่กำหนด
@@ -12,6 +8,9 @@ namespace textSpeed {
     //% text.defl="Hello!"
     //% speed.min=0 speed.max=500
     export function showTextWithSpeed(text: string, speed: number): void {
-        basic.showString(text, speed)
+        for (let i = 0; i < text.length; i++) {
+            basic.showString(text.charAt(i))
+            basic.pause(speed)
+        }
     }
 }
